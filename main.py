@@ -64,6 +64,9 @@ def post_details(detail: detail_schema.BaseDetail):
     details.append(detail)
     return detail
 
+@app.get('/confirmation')
+def confirm():
+    return {"message": "You are now confirmed"}
 
 """
 HTTP METHOD
