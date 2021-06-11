@@ -16,7 +16,7 @@ def add_two_numbers(num: int, num2: int) -> int:
 
 @app.get('/')
 def home():
-    return {"result":"helo"}
+    return {"message":"Learning FastAPI"}
 
 
 @app.get('/name/awesome/asd')
